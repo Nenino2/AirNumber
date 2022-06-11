@@ -1,3 +1,5 @@
 <template>
-    <h1>Welcome</h1>
+    <AppLogo></AppLogo>
+    <AppQr></AppQr>
+    <AppButton>Edit Contact info</AppButton>
 </template>
