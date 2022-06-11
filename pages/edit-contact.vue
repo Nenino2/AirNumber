@@ -1,6 +1,9 @@
 <template>
     <div class="page-layout">
         <AppLogo></AppLogo>
+        <AppInput placeholder="Name"></AppInput>
+        <AppInput placeholder="Surname"></AppInput>
+        <AppInput placeholder="Phone Number"></AppInput>
         <AppButton @click="$router.push({path:'/'})">Save</AppButton>
     </div>
 </template>
