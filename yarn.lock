@@ -4333,6 +4333,11 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
+vcard-creator@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/vcard-creator/-/vcard-creator-0.4.2.tgz#0998ef043fedb1f751cbe23dcf466fb993e13903"
+  integrity sha512-MnIxp/mNdlrYhRZgjZsYGVj17CgXEqQosb2/mYBcAvEu5gPH75U03gMsD33VnFZO2hVDLrnor1U8tqtN5rs54Q==
+
 vite-node@^0.12.1:
   version "0.12.10"
   resolved "https://registry.yarnpkg.com/vite-node/-/vite-node-0.12.10.tgz#a0f1cd3c0753a59bf1c8f583e1b2fc93de2f436a"
