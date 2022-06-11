@@ -1,4 +1,4 @@
 # AirNumber
 
-![Logo](assets/AirNumber.svg)
+![Logo](assets/images/AirNumber.svg)
 
