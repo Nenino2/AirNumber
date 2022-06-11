@@ -1,8 +1,7 @@
 <template>
     <div class="page-layout">
         <AppLogo></AppLogo>
-        <AppQr></AppQr>
-        <AppButton @click="$router.push({path:'/edit-contact'})">Edit Contact info</AppButton>
+        <AppButton @click="$router.push({path:'/'})">Save</AppButton>
     </div>
 </template>
 
