@@ -1,6 +1,6 @@
 <template>
     <div class="field">
-        <input class="input" type="text" v-model="value" :placeholder="placeholder" />
+        <input class="input" :type="type" v-model="value" :placeholder="placeholder" />
         <div class="line"></div>
     </div>
 </template>
@@ -9,6 +9,9 @@
 import { Model, Prop, Vue } from 'vue-property-decorator';
 
 export default class AppInput extends Vue {
+  @Prop({default: "text"})
+  type: string;
+
   @Prop()
   placeholder: string;
 
