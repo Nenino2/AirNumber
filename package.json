@@ -7,6 +7,7 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@kevinmarrec/nuxt-pwa": "^0.3.0",
     "@types/qrcode": "^1.4.2",
     "nuxt": "3.0.0-rc.3"
   },

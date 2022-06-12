@@ -1,6 +1,21 @@
 import { defineNuxtConfig } from 'nuxt'
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    ssr: false
+    ssr: false,
+    modules: [
+        '@kevinmarrec/nuxt-pwa'
+      ],
+    pwa: {
+        icon: {
+            source: "assets/images/AirNumberIcon.png"
+        },
+        meta: {
+            mobileAppIOS: true,
+            name: "AirNumber",
+            theme_color: "#437DC4"
+        },
+        manifest: {
+            name: 'AirNumber',
+          }
+    }
 })
