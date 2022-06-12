@@ -7,7 +7,8 @@ export default defineNuxtConfig({
       ],
     pwa: {
         icon: {
-            source: "assets/images/AirNumberIcon.png"
+            source: "assets/images/AirNumberIcon.png",
+            maskablePadding: 0
         },
         meta: {
             mobileAppIOS: true,
